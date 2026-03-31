@@ -13,3 +13,7 @@ def run_bot():
         time.sleep(5)
 
 run_bot()
+import random
+
+def analyze_market():
+    return random.choice(["BUY", "SELL", "WAIT"])
